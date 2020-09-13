@@ -2,7 +2,13 @@
     "name": "hass-nodered",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-home-assistant-websocket": "0.25.0",
+        "node-red-contrib-huemagic": "2.0.2",
+        "node-red-contrib-stoptimer": "0.0.7",
+        "node-red-dashboard": "2.23.2",
+        "node-red-node-rbe": "0.2.9"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
